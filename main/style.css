@@ -1,0 +1,282 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+br{
+  display: inline;
+}
+.poppins{ font-family: "Poppins";}
+.open{font-family: "Open Sans";}
+#header{
+display: flex;
+justify-content: space-between;
+margin: 80px;
+}
+.logo-header{ width: 250px;
+}
+.button{
+  height: 40px;
+  width: 150px;
+  font-weight: 600;
+  border: 1px;
+  border-radius: 20px;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  box-shadow: 1px 1px 6px  rgb(182, 182, 182);
+}
+#bulk-center{
+display:flexbox;
+justify-content: center;
+text-align: center;
+}
+
+.heading1{
+  font-weight: 700;
+  font-size: 40px;
+margin-top: 150px;}
+.heading1-subtext{ width: 460px;
+  margin-left: 450px; margin-top: 10px;
+font-size: 15px; font-weight: 600; color: rgb(134, 134, 134);
+}
+.button2{
+  width: 300px;
+ height: 60px;
+ border-radius: 30px;
+ margin-top: 35px; margin-bottom: 100px;
+font-size: 16px;
+}
+.mockup{
+  height: 600px;
+}
+.parent-div{
+  display: flex;
+  justify-content:space-evenly;
+  margin-top: 80px;
+  margin-bottom:80px ;
+}
+.div2-num,.div3-num{
+  font-size: 70px;
+font-weight: 500;
+}
+.div2-text,.div3-text{
+  color:rgb(134, 134, 134) ;
+}
+.bg-mockup1{
+ 
+  margin-bottom:-5px ;
+}
+.bg-mockup2{
+ display: "flexbox";
+  rotate: 180deg;
+margin-bottom: -50px;
+}
+.bg-mockup-inbetween{
+
+  background-color: hsl(210, 100%, 98%);
+  height: 230px;
+}
+
+.main{
+  display: flexbox;
+}
+.mockup-heading , .grow ,.mockup-subtext{
+  margin-top: 80px;
+}
+.mockup-heading{
+ 
+  font-weight: 700;
+  font-size: 40px;
+  width: 350px;
+  margin-left:130px ;
+ 
+  position: absolute;
+top: 1700px;
+}
+.grow{
+  width: 300px;
+  margin-left:900px;
+
+  position: absolute;
+  top: 1650px;
+}
+.mockup-subtext{
+  position: absolute;
+  top: 1780px;
+  width: 500px;
+  margin-left: 130px;
+}
+.flowing-main{
+  margin-top: 250px;
+}
+.align-flowing{
+  margin-left:750px ;
+}
+.flowing-heading {
+  font-weight: 700;
+  font-size: 36px;
+}
+.flowing-subheading{
+width: 450px;
+font-size: 13px;
+margin-top: 15px;
+color:rgb(134, 134, 134) 
+}
+.flowing-img{
+  width: 400px;
+  margin-left: 130px;
+  margin-top: -5px;
+  position: relative;
+  bottom: 170px;
+}
+
+
+
+.userbg-1{
+  display: "flexbox";
+   rotate: 180deg;
+   margin-bottom: -5px;
+ }
+.userbg-2{
+  margin-bottom:-5px ;
+}
+
+.userbg-inbetween{
+
+  background-color: hsl(210, 100%, 98%);
+  height: 230px;
+}
+
+.user{
+  display: flexbox;
+}
+.mockup-heading , .grow ,.mockup-subtext{
+  margin-top: 80px;
+}
+.user-heading{
+ 
+  font-weight: 700;
+  font-size: 40px;
+  width: 350px;
+  margin-left:130px ;
+ 
+  position: absolute;
+top: 2900px;
+}
+.user-subheading{
+  position: absolute;
+  top: 2980px;
+  width: 500px;
+  margin-left: 130px;
+}
+.user-image{
+  width: 400px;
+  margin-top: -5px;
+  margin-left: 900px;
+  position: relative;
+  bottom: 350px;
+}
+.ready-align{
+text-align: center;
+}
+.button-last{
+  margin-top: 25px;
+
+  height: 50px;
+width: 270px;
+  font-weight: 600;
+  border: 1px;
+  border-radius: 30px;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+}
+.footer-main{
+  display: flex;
+  justify-content: space-between;
+
+}
+.footer-top{
+  margin-bottom: -5px;
+  
+}
+.footer-bottom{
+  background-color: hsl(192, 100%, 9%);
+  height: 300px;
+}
+.footer-left{
+  display: flexbox;
+}
+.logo-white{
+  margin-left:130px ;
+  position: absolute;
+  top: 4050px;}
+.subtext,.contact-info{
+  margin-left:130px ;
+  
+  position: absolute;
+  top: 4110px;
+  color: rgb(211, 211, 211);
+  width: 300px;
+  font-size: 13px;
+}
+.contact-info{
+  position: absolute;
+  top: 4200px;
+}
+.phone-icon,.icon-mail{
+margin-right: 13px;
+}
+.footer-right{
+  display: flex;
+}
+.footer-right-heading{
+  color: white;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  position: absolute;
+  top:4050px ;
+  left: 880px;
+}
+.footer-right-subheading{
+  color: white;
+  font-weight: 550;
+  width: 250px;
+  font-size: 10px;
+  position: absolute;
+  top:4090px ;
+  left: 880px;
+}
+.input-parent{
+  position: absolute;
+  top:4150px ;
+  left: 880px;
+}
+.subscribe-box{
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px ;
+}
+.subscribe{
+  
+ padding: 10px;
+  border-radius: 3px;
+  border: 1px ;
+  font-weight: 550;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  margin-left: 15px;
+  font-size: small;
+}
+.copyright{
+  position: absolute;
+  top: 4270px;
+  left: 500px;
+text-decoration: none;
+color: white;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 500;
+}
+.button:hover{
+  font-size: 15px;
+}
